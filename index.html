@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2d6cb4332e.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Music Player Project</title>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="leftSideDiv">
+            <div class="musicIcon">Music Player
+                <i class="fa fa-music" aria-hidden="true"></i>
+
+            </div>
+            <div class="leftSideMargin leftDiv1">
+                <i class="op fa fa-home" aria-hidden="true"></i>
+                <p class="pMarginTop">Home</p>
+            </div>
+            <div class="leftSideMargin leftDiv2">
+                <i class="op fa fa-th" aria-hidden="true"></i>
+                <p class="pMarginTop">Browse</p>
+            </div>
+
+            <div class="leftSideMargin leftDiv4">
+                <i class="op fa fa-user-o" aria-hidden="true"></i>
+                <p class="pMarginTop">Artist</p>
+            </div>
+            <div class="leftSideMargin leftDiv5">
+                <i class="op fa fa-video-camera" aria-hidden="true"></i>
+                <p class="pMarginTop">Videos</p>
+            </div>
+            <div class="leftSideMargin myMusicHeading">
+                MY MUSIC
+            </div>
+            <div class="leftSideMargin leftDiv6">
+                <i class="op fa fa-clock-o" aria-hidden="true"></i>
+                <p class="pMarginTop">Recently Played</p>
+            </div>
+            <div class="leftSideMargin leftDiv7">
+                <i class="op fa fa-file" aria-hidden="true"></i>
+                <p class="pMarginTop">Local Files</p>
+            </div>
+            <div class="leftSideMargin playlistHeading">
+                PLAYLIST
+            </div>
+            <div class="leftSideMargin leftDiv8">
+                <i class="op fa fa-list" aria-hidden="true"></i>
+                <p class="pMarginTop">General Playlist</p>
+            </div>
+            <div class="leftSideMargin leftDiv9">
+                <p class="pMarginTop">Mood Swings</p>
+                <i class="skycolor fa fa-skyatlas " aria-hidden="true"></i>
+
+            </div>
+            <div class="leftSideMargin leftDiv10">
+                <p class="pMarginTop">Healing</p>
+                <i class="healingcolor fa fa-coffee " aria-hidden="true"></i>
+            </div>
+            <div class="leftSideMargin leftDiv11">
+                <p class="pMarginTop">Winter</p>
+                <i class="wintercolor fa fa-snowflake-o " aria-hidden="true"></i>
+
+            </div>
+            <div class="leftSideMargin leftDiv12">
+                <p class="pMarginTop">Happy</p>
+                <i class="happycolor fa fa-smile-o" aria-hidden="true"></i>
+            </div>
+            <div class="leftSideMargin leftDiv13">
+                <p class="pMarginTop">Night</p>
+                <i class="nightcolor fa fa-moon-o " aria-hidden="true"></i>
+            </div>
+
+        </div>
+        <div class="rightSideDiv">
+            <div class="rightSideDivHeader">
+                <i class="dot fa fa-ellipsis-v " aria-hidden="true"></i>
+                <input type="text" class="input form-control" placeholder="Search">
+                <div class="profileIconContainer">
+                    <img class="profileIcon" src="https://i.pinimg.com/564x/2f/d7/8e/2fd78e90c645537e3089306b79aa509b.jpg">
+                </div>
+                <p class="mtkuser">May Thin Kyi</p>
+                <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                <i class="fa fa-bell-o" aria-hidden="true"></i>
+                <span class='bi bi-dot' style='color: red'></span>
+                <i class="fa fa-cog" aria-hidden="true"></i>
+            </div>
+            <hr>
+            <div class="rightSideDivBody">
+                <div>
+                    <span class="rightSideDivBodyHeader">Top Atists</span> <span class="op top50">- Top 50</span>
+                </div>
+                <div class="musicProfileTemplateContainer">
+                    <div class="template musicProfile1">
+                        <img class="profile" src="https://artist1.cdn107.com/1ea/1eaf04c6ac287200a76ed6d3550b8c57_xl.jpg?i=1">
+                        <span>Kill This Love</span>
+                        <span class="artist">BLACKPINK</span>
+                    </div>
+                    <div class="template musicProfile2">
+                        <img class="profile" src="https://www.pinkvilla.com/imageresize/bts_main_61.png?width=752&format=webp&t=pvorg">
+                        <span>Black Swan</span>
+                        <span class="artist">BTS</span>
+                    </div>
+                    <div class="template musicProfile3">
+                        <img class="profile" src="https://upload.wikimedia.org/wikipedia/en/2/28/One_Direction_Midnight_Memories_%28Official_Album_Cover%29.png">
+                        <span>Story Of My Life</span>
+                        <span class="artist">One Direction</span>
+                    </div>
+                    <div class="template musicProfile4">
+                        <img class="profile" src="https://i.scdn.co/image/ab67706f00000003aa9142d38243f6211304aa22">
+                        <span>Viva La Vida</span>
+                        <span class="artist">COLDPLAY</span>
+                    </div>
+                    <div class="template musicProfile5">
+                        <img class="profile" src="https://i1.sndcdn.com/artworks-7gosaiUKnVwL-0-t500x500.jpg">
+                        <span>LO$ER=LO♡ER</span>
+                        <span class="artisttxt">TOMORROW X TOGETHER</span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="rightSideDivFooter">
+                <!--Now Playing and Your Playlist Section-->
+                <div class="nowPlayingDivContainer">
+                    <div class="nowPlaying">Now Playing</div>
+                    <div class="nowPlayingSong">
+                        <img class="nowPlayingSongImg" src="https://images.genius.com/a4c44a0654717709a02e8d439a6f82f7.1000x1000x1.jpg">
+                        <div class="nowPlayingSongTitle">Dandelions</div>
+                        <div class="nowPlayingSongArtist">Ruth B</div>
+                        <div class="progressBarContainer">
+                            <div class="currentProgress"></div>
+                        </div>
+                        <div class="currentTimeAndDuration">00:00 / 00:00</div>
+                        <audio src="music/track1.mp3"></audio>
+                        <div class="buttonContainer">
+                            <i class="fa fa-random button randomButton" aria-hidden="true"></i>
+                            <i class="fa fa-backward button previousButton" aria-hidden="true"></i>
+                            <i class="fa fa-play button playButton" aria-hidden="true"></i>
+                            <i class="fa fa-pause button pauseButton hide" aria-hidden="true"></i>
+                            <i class="fa fa-forward button nextButton" aria-hidden="true"></i>
+                            <i class="fa fa-exchange button repeatButton" aria-hidden="true"></i>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="yourPlaylistgDivContainer">
+                    <div class="yourPlaylist">
+                        Your Playlist<i class="fa fa-heart-o" aria-hidden="true"></i>
+
+                    </div>
+                    <div class="currentPlaylistContainer">
+                        <div class="playlistContainer oneToFive ">
+                            <div id="1" class="playlist no1">
+                                <span class="rollno">01</span>
+                                <img class="marginLeftImg dandelionsImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvb48VF5WajWXwCaXP271eU2an__TrY-WLd1JUCrfHcQis9oU0MoYKokHHrSZ9aKwC5q8&usqp=CAU">
+                                <i class="fa fa-play design" aria-hidden="true"></i>
+                                <span class="trackTitle">Dandelions</span>
+                                <span class="artist op">Ruth B</span>
+                                <span class="duration op">3:55</span>
+                            </div>
+                            <div id="2" class="playlist no2 playlistMarginTop">
+                                <span class="rollno">02</span>
+                                <img class="marginLeftImg dandelionsImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5EtkjiF995be6E7hmHBFFgoNHzf03RNwr-A&usqp=CAU">
+                                <i class="fa fa-play design" aria-hidden="true"></i>
+                                <span class="trackTitle">Kill This Love</span>
+                                <span class="artist op">BLACKPINK</span>
+                                <span class="duration op">3:13</span>
+                            </div>
+                            <div id="3" class="playlist no3 playlistMarginTop">
+                                <span class="rollno">03</span>
+                                <img class="marginLeftImg dandelionsImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYuWFjr3f8CK0JVexW66rOK1zfDNnjWQRxoOB2oTlNDPj68vRLyz1dSzUR_3AahNC-CTI&usqp=CAU">
+                                <i class="fa fa-play design" aria-hidden="true"></i>
+                                <span class="trackTitle">Black Swan</span>
+                                <span class="artist op">BTS</span>
+                                <span class="duration op">3:37</span>
+                            </div>
+                            <div id="4" class="playlist no4 playlistMarginTop">
+                                <span class="rollno">04</span>
+                                <img class="marginLeftImg dandelionsImg" src="https://upload.wikimedia.org/wikipedia/en/3/3d/Welcometomylife.jpg">
+                                <i class="fa fa-play design" aria-hidden="true"></i>
+                                <span class="trackTitle">Welcome To My Life</span>
+                                <span class="artist op">Simple Plan</span>
+                                <span class="duration op">3:21</span>
+                            </div>
+                            <div id="5" class="playlist no5 playlistMarginTop">
+                                <span class="rollno">05</span>
+                                <img class="marginLeftImg dandelionsImg" src="https://miro.medium.com/max/1400/0*VrG0KGkI41oAYpvY.jpg">
+                                <i class="fa fa-play design" aria-hidden="true"></i>
+                                <span class="trackTitle">Viva La Vida</span>
+                                <span class="artist op">COLDPLAY</span>
+                                <span class="duration op">4:02</span>
+                            </div>
+                        </div>
+                        <div class="playlistContainer sixToTen hide">
+                            <div id="6" class="playlist no6">
+                                <span class="rollno">06</span>
+                                <img class="marginLeftImg dandelionsImg" src="https://i1.sndcdn.com/artworks-000530076330-3uvuuv-t500x500.jpg">
+                                <i class="fa fa-play design" aria-hidden="true"></i>
+                                <span class="trackTitle">All I Want</span>
+                                <span class="artist op">Kodaline</span>
+                                <span class="duration op">5:03</span>
+                            </div>
+                            <div id="7" class="playlist no7 playlistMarginTop">
+                                <span class="rollno">07</span>
+                                <img class="marginLeftImg dandelionsImg" src="https://i1.sndcdn.com/artworks-ksvFGQm60sVABR7H-4GmjAQ-t500x500.jpg">
+                                <i class="fa fa-play design" aria-hidden="true"></i>
+                                <span class="trackTitle">Don't Wanna Cry</span>
+                                <span class="artist op">Seventeen</span>
+                                <span class="duration op">3:26</span>
+                            </div>
+                            <div id="8" class="playlist no8 playlistMarginTop">
+                                <span class="rollno">08</span>
+                                <img class="marginLeftImg dandelionsImg" src="https://popgasa1.files.wordpress.com/2019/04/3259374.jpg?w=750">
+                                <i class="fa fa-play design" aria-hidden="true"></i>
+                                <span class="trackTitle">Mikrokosmos</span>
+                                <span class="artist op">BTS</span>
+                                <span class="duration op">3:39</span>
+                            </div>
+                            <div id="9" class="playlist no9 playlistMarginTop">
+                                <span class="rollno">09</span>
+                                <img class="marginLeftImg dandelionsImg" src="https://i1.sndcdn.com/artworks-000637298005-bxehgg-t500x500.jpg">
+                                <i class="fa fa-play design" aria-hidden="true"></i>
+                                <span class="trackTitle">Dionysus</span>
+                                <span class="artist op">BTS</span>
+                                <span class="duration op">4:18</span>
+                            </div>
+                            <div id="10" class="playlist no10 playlistMarginTop">
+                                <span class="rollno">10</span>
+                                <img class="marginLeftImg dandelionsImg" src="https://upload.wikimedia.org/wikipedia/en/2/21/If_%28Bread_song%29.jpg">
+                                <i class="fa fa-play design" aria-hidden="true"></i>
+                                <span class="trackTitle">If</span>
+                                <span class="artist op">Bread</span>
+                                <span class="duration op">2:44</span>
+                            </div>
+                        </div>
+                        <div class="playlistContainer elevenToFifteen hide">
+                            <div id="11" class="playlist no11">
+                                <span class="rollno">11</span>
+                                <img class="marginLeftImg dandelionsImg" src="https://i0.wp.com/colorcodedlyrics.com/wp-content/uploads/2019/12/Red-Velvet-The-ReVe-Festival-Finale.jpg?fit=600%2C600&ssl=1">
+                                <i class="fa fa-play design" aria-hidden="true"></i>
+                                <span class="trackTitle">Psycho</span>
+                                <span class="artist op">Red Velvet</span>
+                                <span class="duration op">3:35</span>
+                            </div>
+                            <div id="12" class="playlist no12 playlistMarginTop">
+                                <span class="rollno">12</span>
+                                <img class="marginLeftImg dandelionsImg" src="https://upload.wikimedia.org/wikipedia/en/0/0e/GreenDay21Guns.jpg">
+                                <i class="fa fa-play design" aria-hidden="true"></i>
+                                <span class="trackTitle">21 Guns</span>
+                                <span class="artist op">Green Days</span>
+                                <span class="duration op">5:26</span>
+                            </div>
+                            <div id="13" class="playlist no13 playlistMarginTop">
+                                <span class="rollno">13</span>
+                                <img class="marginLeftImg dandelionsImg" src="https://linkstorage.linkfire.com/medialinks/images/ff617750-2c7f-4b0e-b8d0-f673b932b8db/artwork-440x440.jpg">
+                                <i class="fa fa-play design" aria-hidden="true"></i>
+                                <span class="trackTitle">My Universe</span>
+                                <span class="artist op">COLDPLAY ft: BTS</span>
+                                <span class="duration op">4:42</span>
+                            </div>
+                            <div id="14" class="playlist no14 playlistMarginTop">
+                                <span class="rollno">14</span>
+                                <img class="marginLeftImg dandelionsImg" src="https://i1.sndcdn.com/artworks-000616670719-msfe9c-t500x500.jpg">
+                                <i class="fa fa-play design" aria-hidden="true"></i>
+                                <span class="trackTitle">Make It Right</span>
+                                <span class="artist op">Lauv ft: BTS</span>
+                                <span class="duration op">4:17</span>
+                            </div>
+                            <div id="15" class="playlist no15 playlistMarginTop">
+                                <span class="rollno">15</span>
+                                <img class="marginLeftImg dandelionsImg" src="https://i1.sndcdn.com/artworks-000469443258-iaoeym-t500x500.jpg">
+                                <i class="fa fa-play design" aria-hidden="true"></i>
+                                <span class="trackTitle">Hey Dude</span>
+                                <span class="artist op">The Beatles</span>
+                                <span class="duration op">4:35</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="threeDotContainer">
+                        <i class="dot1 fa fa-circle-o" aria-hidden="true"></i>
+                        <i class="dot2 fa fa-circle-o" aria-hidden="true"></i>
+                        <i class="dot3 fa fa-circle-o" aria-hidden="true"></i>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

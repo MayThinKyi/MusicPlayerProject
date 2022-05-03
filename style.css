@@ -1,0 +1,377 @@
+body{
+    height:100%;
+
+    margin:0;
+    font-family: Lato,sans-serif;
+    background-color: #FFEDDF;
+    font-size: .95rem;
+    font-weight: 700;
+}
+.parent{
+    display:flex;
+
+}
+.leftSideDiv{
+    cursor: pointer;
+    user-select: none;
+    width: 20%;
+    height:800px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+}
+.pMarginTop{
+    margin-top: 11px;
+}
+.leftSideMargin{
+    margin-left: 15px;
+}
+.musicIcon{
+    margin-top: 30px;
+    font-size: 20px;
+    color: lightblue;
+    opacity: 0.7;
+}
+.leftDiv1{
+    margin-right: auto; 
+    margin-left: 40px;
+    margin-top: 40px;
+    display: flex;
+    text-align: left;
+}
+.leftDiv2,.leftDiv3,.leftDiv4,.leftDiv5,.leftDiv7{
+    margin-right: auto; 
+    margin-left: 40px;
+    margin-top: 0px;
+    display: flex;
+    text-align: left;
+    
+}
+.fa-home,.fa-th,.fa-file-audio-o,.fa-user-o,.fa-video-camera,.fa-file,.fa-list,.fa-skyatlas{
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.myMusicHeading,.playlistHeading{
+    margin-right: auto; 
+    margin-left: 40px;
+font-size: 18px;
+opacity: 0.2;
+margin-top: 8px;
+margin-bottom: 5px;
+}
+.leftDiv6{
+    margin-right: auto; 
+    margin-left: 40px;
+    margin-top: 0px;
+    display: flex;
+    text-align: left;
+
+}
+.fa-clock-o{
+    margin-top: 17px;
+    margin-right: 8px;
+}
+.leftDiv8{
+    margin-right: auto; 
+    margin-left: 40px;
+    margin-top: 00px;
+    display: flex;
+    text-align: left;
+}
+.fa-list{
+    margin-top: 17px;
+    margin-right: 8px;
+}
+.leftDiv9{
+    margin-right: auto; 
+    margin-left: 40px;
+    margin-top: 0px;
+    display: flex;
+    text-align: left;
+}
+.leftDiv10,.leftDiv11,.leftDiv12,.leftDiv13{
+    margin-right: auto; 
+    margin-left: 40px;
+    display: flex;
+    text-align: left;
+}
+.fa-skyatlas,.fa-coffee,.fa-snowflake-o,.fa-smile-o,.fa-moon-o{
+    margin-top: 17px;
+    margin-left: 8px;
+}
+.pMarginTop{
+    margin-top: 10px;
+}
+.op{
+    opacity: 0.5;
+}
+.skycolor{
+    color:blue;
+}
+.healingcolor{
+    color:lightseagreen;
+}
+.happycolor{
+    color:orange;
+}
+.wintercolor{
+    color:gainsboro;
+}
+.nightcolor{
+    color:purple;
+}
+.rightSideDiv{
+    width:80%;
+}
+.rightSideDivHeader{
+    display: flex;
+    
+    margin:10px 0px;
+
+}
+.dot{
+    padding: 20px;
+
+}
+.input{
+    margin-top: 10px;
+    margin-left: 10px;
+    width:250px;
+    height:40px;
+}
+.profileIconContainer{
+    margin-top: 15px;
+    margin-left: 350px;
+    
+}
+.profileIcon{
+    width:40px;
+    height:40px;
+    border-radius: 20px;
+}
+.mtkuser{
+    margin-top: 23px;
+    margin-left: 13px;
+    font-weight: 700;
+}
+.fa-chevron-circle-down{
+    opacity: 0.1;
+    margin-top: 27px;
+    margin-left: 16px;
+}
+.fa-bell-o{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.fa-cog{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.bi-dot{
+    width:3px;
+    height: 3px;
+}
+.rightSideDivBody{
+    margin-top: 10px;
+}
+.rightSideDivBodyHeader{
+    padding: 30px;
+    font-size: 22px;
+    font-weight: 900;
+}
+.top50{
+    font-size:18px ;
+}
+.musicProfileTemplateContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top:15px;
+}
+.template{
+    width:150px;
+    height:140px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile{
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+
+}
+.artist{
+    opacity: 0.3;
+    font-size: 13px;
+}
+.artisttxt{
+    opacity: 0.3;
+    font-size: 11px;
+}
+.rightSideDivFooter{
+    display:flex;
+    flex-direction: row;
+
+}
+.nowPlayingDivContainer{
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:30px;
+    margin-top: 60px;
+    margin-left: -60px;
+    width:50%;
+    height:440px;
+}
+.yourPlaylistgDivContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    margin-left: -60px;
+
+    width:50%;
+    height:470px;
+    padding:30px;
+    margin-top: 80px;
+}
+.nowPlaying{
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 200px;
+}
+.nowPlayingSong{
+    padding:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left:8px;
+    width:330px;
+    height:450px;
+    background-color: white;
+}
+
+.playlistContainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:60px;
+    background-color: white;
+    border-radius:5px;
+}
+.playlist{
+    padding:10px;
+    border-radius:5px;
+
+    display:flex;
+    width:100%;
+    height:100%;
+    background-color: white;
+
+}
+.playlistMarginTop{
+    margin-top:10px;
+}
+.rollno{
+    margin-top:8px;
+}
+.marginLeftImg{
+    margin-left:5px;
+}
+.hide{
+    display:none;
+}
+.dandelionsImg{
+    width:45px;
+    height:42px;
+    border-radius: 5px;
+}
+.design{
+    opacity: 0.1;
+    font-size: 12px;
+    margin-top: 13px;
+    margin-left: 15px;
+}
+.trackTitle,.duration{
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+.artist{
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.threeDotContainer{
+    margin-top: 300px;
+    width:100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.fa-circle-o{
+    opacity:0.8;
+    font-size: 10px;
+    margin-right: 6px;
+}
+.yourPlaylist{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-right: 260px;
+
+}
+.fa-heart-o{
+    margin-left: 5px;
+    color: red;
+}
+.buttonContainer{
+    display: flex;
+    margin-left: 30px;
+}
+.button{
+    margin-right: 40px;
+}
+.unhide{
+    display: block;
+
+}
+.nowPlayingSongImg{
+    width:120px;
+    height:120px;
+    border-radius: 25px;
+    margin-top:15px;
+    margin-bottom: 5px;
+}
+.nowPlayingSongArtist{
+    font-size: 13px;
+    opacity: 0.4;
+}
+.progressBarContainer{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    width:250px;
+    height:5px;
+    background-color: gainsboro;
+}
+.currentProgress{
+    width:0px;
+    height:100%;
+    background-color: blue;
+    opacity:0.4;
+}
+.currentTimeAndDuration{
+    margin-bottom: 20px;
+}
